@@ -1,7 +1,7 @@
 from ExceptionClass import *
 
 
-class LinkedStack:
+class LinkedQueue:
 	class _Node:
 		__slot__ = '_element','_next'
 		def __init__(self, element, next):
@@ -53,7 +53,7 @@ class LinkedStack:
 		print(list)
 
 	
-ls = LinkedStack()
+ls = LinkedQueue()
 ls.enqueue(10)
 ls.display()
 ls.enqueue(20)
